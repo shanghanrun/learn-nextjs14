@@ -1,5 +1,5 @@
 // "use client"
-import { url } from "../../../../(home)/page";
+import { url } from "../../../../constants/constants"; 
 import Movie from "../../../../components/movie";
 import styles from './movie-similar.module.css'
 // import { useRouter } from 'next/router'

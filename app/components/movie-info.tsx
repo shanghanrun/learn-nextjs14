@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { url } from "../(home)/page";
+import { url } from "../constants/constants"; 
 import styles from './movie-info.module.css'
 
 export async function getMovie(id:string){

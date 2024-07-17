@@ -1,10 +1,10 @@
 import { Suspense } from "react"
-import { url } from "../../../(home)/page"
+import { url } from "../../../constants/constants"; 
 import MovieInfo, { getMovie } from "../../../components/movie-info"
 import MovieVideos from "../../../components/movie-videos"
 
 interface IParams{
-	params:{id:string}
+	params:{id:string};
 }
 export async function generateMetadata({params:{id}}:IParams){
 	const movie = await getMovie(id)
